@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quizlet Match Hack</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            body {
+                min-width: 400px;
+            }
+            .input-field input:focus {
+                border-bottom: 1px solid #3f51b5;
+                box-shadow: 0 1px 0 0 #000;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper indigo">
+                <a class="brand-logo">Quizlet Hack</a>
+            </div>
+        </nav>
+        <div class="row">
+            <form class="col s8">
+                <div class="input-field">
+                    <i class="material-icons prefix">access_time</i>
+                    <input id="timer_input" placeholder="Seconds to Pause At" type="number" min=".5" value="2" class="validate">                </div>
+            </form>
+            <div class="col s4">
+                    <button id="stop_button" style="width: 100%; margin-top: 20%;" class="waves-effect waves-light btn indigo">Stop</button>
+                </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
